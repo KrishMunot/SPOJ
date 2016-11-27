@@ -6,7 +6,7 @@ long long t,k,i;
 cin>>t;
 long long a,b;
 float p,ans;
-loo(i,0,t)
+for(i=0;i<t;i++)
 {
     cin>>k>>p;
     b=ceil(k/p); 
