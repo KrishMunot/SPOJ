@@ -10,10 +10,11 @@ loo(i,0,t)
 {
     cin>>k>>p;
     b=ceil(k/p); 
-    if(b<k+1)
-    cout<<b<<endl;
+     b=k/p; 
+    if( b*(1-p)==b-k&&b!=k)
+        cout<<b-1<<endl;
     else
-    cout<<b-1<<endl;
+        cout<<b<<endl;
 }    
     return 0;
 }
